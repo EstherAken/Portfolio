@@ -1,0 +1,832 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav--couch{
+    background-image: linear-gradient(#c28814, #FFCA03);
+    height: 720px;
+}
+
+.Navbar{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding-top: 20px;
+    
+}
+
+.Navbar .leftside{
+flex: 30%;
+align-items: center;
+justify-content: left;
+display: flex;
+}
+
+.Navbar .leftside .links{
+    max-height: 80px;
+}
+
+.Navbar .leftside .links a{
+    max-height: 80px;
+    text-decoration:none;
+    font-size: large;
+    color: black;
+    margin-left: 20px;
+    
+}
+
+.Navbar .nav--toggler{
+    display: none;
+    margin: 30px;
+
+}
+.Navbar .nav--toggler #hidden{
+    display: flex;
+}
+
+
+.Navbar .rightside{
+    flex: 30%;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar .rightside button{
+    max-height: 80px;
+    height: 50px;
+    width: 80px;
+    border: none;
+    border-radius:7%;
+    font-size: 15px;
+    color: white;
+    margin-right: 15px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.btn--1{
+    background-color: red;
+}
+
+.btn--2{
+    background-color: black;
+}
+
+.Navbar img{
+    flex: 60%;
+    max-width: 18%;
+   margin:20px 20px 0 auto; 
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:710px){
+
+
+    .Navbar{
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+
+        .Navbar .leftside .links{
+            display: none;
+        }
+        .Navbar .rightside button{
+            display: none;
+        }
+
+        .Navbar img{
+            width: 200px;
+            height: 50px;
+            display: flex;
+            align-items: right;
+            
+        }
+
+        .nav--couch  .nav--mobile{
+            display: flex;
+            
+        }
+    .nav--mobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navigation .mobile--btn--1{
+        max-height: 40px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius:5px;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(193, 66, 66);
+    font-weight: bold;
+    margin-top: 15px;
+    }
+
+    .navigation .mobile--btn--2{
+        max-height: 40px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius:5px;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    margin-top: 15px;
+    }
+
+    
+    
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+   
+
+/*------- experimrent */
+
+
+/*------*/
+
+
+        .nav--couch{
+            width: 100%;
+            height: 450px;
+        }
+
+        .couch--container{
+            display: flex;
+            margin-top: 250px;
+            position: relative;
+            justify-content: center;
+        }
+    
+       .couch--co .couch--container .couch img{
+        width: 350px;
+        }
+    
+        .couch--co .couch--container .couch{
+            display: flex;
+            justify-items: end;
+            align-items: center;
+        }
+
+        
+        .couch--co .homesmart--container img{
+                height:auto; 
+                position: absolute;
+                left: 35%;   
+                max-width: 30%; 
+                        
+        }
+
+    .couch--co .btn--div{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .dots--body img{
+        display: none;
+        margin-top: 10px;
+    }
+    
+    .dots--body{
+        display: flex;
+        flex-direction: column;
+        
+
+        
+    }
+    .dots--body .icons--text{
+        display: flex;
+        padding-top: 10px;
+        margin: auto;
+        
+    }
+
+    .dots--body .icons--text .outer--circle{
+        margin-top: 5px;
+
+    }
+   
+    #great--container{
+        width: 100%;
+        height: 630px;
+    }
+    .partners--container h1{
+        font-size: 30px;
+    }
+    .partners--container p{
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .partners--container #great{
+        display: grid;
+        grid-template-columns: 80px 80px 80px;
+        grid-template-rows: 70px 70px 70px;
+        grid-gap:40px 45px;
+        margin-top: 2px;
+        
+    }
+.partners--container #great--row--1{
+    margin-top: auto;
+}
+
+.partners--images #great--col--5{
+    margin-left: 3px;
+}
+.partners--images #great--col--6{
+    margin-left: 5px;
+}
+.partners--images #great--col--7{
+    padding-left: 55px;
+}
+
+    .table--div{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        
+    }
+
+    .table--div .table--texts h1{
+        font-size:30px ;
+    }
+    .table--div .table--texts p{
+        font-size: 15px;
+    }
+
+    .table--div .table--texts{
+        margin-left: 130px;
+        margin-top: auto;
+    }
+
+    .table--div .img--div{
+        margin-right: 50px;
+
+    }
+
+    .table--div .img--div img{
+        width:95%;
+    }
+
+    .lamp--form--div .lamp--div .homecrop{
+        display: none;
+    }
+    .lamp--form--div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .lamp--form--div .lamp--div{
+        margin-left: 220px;}
+
+        .lamp--form--div .form--div input{
+            width: 280px;
+            height: 30px;
+            border: 5px solid #c28814;
+            border-radius: 5px;
+        }
+
+        .lamp--form--div .form--div textarea{
+            width: 280px;
+            height: 100px;
+            border: 5px solid #c28814;
+        } 
+
+        .lamp--form--div #great--form{
+            width: 340px;
+            height: 440px;
+            border: 5px solid #413F42;
+            margin-top: 40px;
+           margin-left: 155px;
+            
+        }
+}
+/* screen 2 */
+
+@media(max-width:1000px){
+    .couch--container{
+        display: flex;
+        margin-top: 260px;
+        position: relative;
+        justify-content: center;
+    }
+
+    .couch--co .couch--container .couch img{
+        width: 95%;
+        margin-left: 35px;
+        }
+
+        .couch--co .couch--container .couch{
+            display: flex;
+            justify-items: end;
+            align-items: center;
+        }
+
+        .couch--co .homesmart--container img{
+            height:auto; 
+            position: absolute;
+            left: 37%;   
+            max-width: 30%; 
+                    
+    }
+
+    .nav--couch{
+        width: 100%;
+        height: 510px;
+    }
+    .couch--co button{
+        margin-left: 25px;
+    
+    }
+    .dots--body img{
+        display: none;
+        margin-top: 10px;
+    }
+    .table--div{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        }
+
+        .table--div .img--div img{
+            width:65%;
+            margin-left: 55px;
+        }
+        .table--div .table--texts{
+            margin-left: 265px;
+            margin-top: 0;
+        }
+
+        
+        .lamp--form--div .form--div input{
+            width: 280px;
+            height: 30px;
+            border: 5px solid #c28814;
+            border-radius: 5px;
+        }
+
+        .lamp--form--div .form--div textarea{
+            width: 280px;
+            height: 100px;
+            border: 5px solid #c28814;
+        } 
+
+        .lamp--form--div #great--form{
+            width: 360px;
+            height: 440px;
+            border: 5px solid #413F42;
+            margin-top: 100px;
+           margin-left: 155px;
+            
+        }
+        .lamp--form--div .lamp--div .lamp--img{
+            width:160px;
+        }
+        .lamp--form--div .lamp--div{
+            margin-top: 50px;
+        }
+        
+}
+
+@media(max-width:1500px) {
+     .couch--container{
+        display: flex;
+        margin-top: 260px;
+        position: relative;
+        justify-content: center;
+    }
+
+    .couch--co .couch--container .couch img{
+        width: 95%;
+        margin-left: 35px;
+        }
+
+        .couch--co .couch--container .couch{
+            display: flex;
+            justify-items: end;
+            align-items: center;
+        }
+
+        .couch--co .homesmart--container img{
+            height:auto; 
+            position: absolute;
+            left: 38%;   
+            max-width: 25%; 
+                    
+    }
+
+    .dots--body .dots--pic{
+        width: 70px;
+    }
+    
+}
+
+/*
+
+@media(max-width: 750px){
+    .Navbar .leftside .links a{
+        font-size: 12px;
+    }
+
+    .Navbar .rightside button{
+        height: 30px;
+        width:50px;
+        font-size: 10px;
+    }
+
+    .nav--couch{
+        width: 100%;
+        height: 400px;
+    }
+
+   .couch--co .couch--container .couch img{
+    width: 300px;
+    }
+
+    .couch--co .couch--container .couch{
+        display: flex;
+        justify-items: end;
+        align-items: center;
+    }
+}
+
+@media(max-width:850px){
+    .Navbar .leftside .links a{
+        font-size: 15px;
+    }
+
+    .Navbar .rightside button{
+        height: 40px;
+        width:60px;
+        font-size: 15px;
+    }
+
+    .nav--couch{
+        width: 100%;
+        height: 500px;
+    }
+
+   .couch--co .couch--container .couch img{
+    width: 700px;
+    }
+
+    .couch--co .couch--container .couch{
+        display: flex;
+        justify-items: end;
+        align-items: center;
+    }
+
+   .couch--co .homesmart--container{
+        position: relative;
+    }
+    .couch--co .homesmart--container img{
+            height:auto; 
+            position: absolute;
+               left: 330px;
+               bottom: 3px;
+    }
+
+    
+} */
+    
+
+
+.couch--container{
+    display: flex;
+    margin-top: 270px;
+    position: relative;
+    justify-content: center;
+}
+
+/* couch styling */
+
+.couch{
+    
+    align-self: center;
+}
+
+.homesmart--pic{
+ max-width: 20%;  
+ height:auto; 
+ position: absolute;
+    left: 38em;
+    bottom: 3px;
+    margin-top: 50px;
+}
+
+
+.couch--co .btn--div{
+    display: flex;
+    justify-content: center;
+}
+
+.couch--co button:hover{
+    background-color: red;
+    color: white;
+}
+
+.couch--co button{
+    align-items: center;
+    width: 220px;
+    height: 35px;
+    padding: auto;
+    font-size: 17px; 
+    font-weight: bold;
+    background-color:#c28814;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px; 
+    text-align: center;
+
+}
+
+
+.dots--body img{
+    height: 250px;
+    width: 90px;
+    margin-top: 80px;
+}
+
+.dots--body .icons--text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    line-height: 2.6;
+    text-align: center;
+    font-size: 17px;
+}
+
+.dots--body{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.dots--body .icons--text .outer--circle{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 10px solid #c28814;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.partners--container{
+    margin-top: 100px;
+    background-color: black;
+    height: 550px;
+}
+.partners--container h1{
+    color: #c28814;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.partners--container p{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 50px;
+    line-height: 1.6;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.partners--container p span{
+    display: block;
+}
+
+.partners--container img{
+    width: 110px; 
+    height: 100px;
+    background: white;
+    border-radius: 7px;
+    margin-top: 80px;
+    
+    
+}
+.partners--container .experiment--flex{
+    display: flex;
+    justify-content: center;
+}
+
+.partners--container .partners--images{
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px;
+    grid-template-rows: 70px 70px;
+    grid-gap:80px 50px;
+    
+}
+
+
+.partners--images .col--5{
+    margin-left: 70px;
+}
+.partners--images .col--6{
+    margin-left: 70px;
+}
+.partners--images .col--7{
+    margin-left: 70px;
+}
+
+.table--div .table--texts p span{
+    display: block;
+}
+
+.table--div .table--texts h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.table--div .table--texts p{
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.table--div .table--texts button:hover{
+    background-color: red;
+    color: white;
+}
+
+.table--div .table--texts button{
+    height: 45px;
+    border: none;
+    width:100px;
+    border-radius: 7px;
+    background-color: #c28814;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+.table--div .table--texts{
+    margin-top: 12rem; 
+}
+
+.table--div .img--div{
+    margin-left: 6rem;
+
+}
+
+
+.table--div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.lamp--form--div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.lamp--form--div .lamp--div{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+
+.lamp--form--div .lamp--div .lamp--img{
+    width:180px;
+    margin-left: 1rem;
+    
+}
+.lamp--form--div .lamp--div .homecrop{
+    width: 245px;
+    margin-top: 35px;
+    padding-right: 1rem;
+}
+
+.lamp--form--div .lamp--div button:hover{
+    background-color: red;
+    color: white;
+}
+.lamp--form--div .lamp--div button{
+    align-items: center;
+    width: 220px;
+    height: 40px;
+    padding: auto;
+    font-size: 17px; 
+    font-weight: bold;
+    background-color:#c28814;
+    border: none;
+    border-radius: 3px;
+    margin-top: 40px; 
+    text-align: center;
+}
+
+.lamp--form--div .form--div h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:15px ;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.lamp--form--div .form--div p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+input{
+    width: 420px;
+    height: 35px;
+    border: 5px solid #c28814;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    
+}
+textarea{
+    width: 420px;
+    height: 110px;
+    border: 5px solid #c28814;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.lamp--form--div .form--div button{
+    height: 45px;
+    border: none;
+    width:100px;
+    border-radius: 7px;
+    background-color: #c28814;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.lamp--form--div .form--div button:hover{
+    background-color: red;
+    color: white;
+}
+
+.lamp--form--div .form--div .form--btn{
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+.lamp--form--div .form--div{
+    width: 520px;
+    height: 460px;
+    border: 5px solid #413F42;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 7rem;
+    
+}
+
+/* ----------- experiment */
+ .nav--mobile{
+    display: none;}
+   
+.hamburger{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.close{
+    margin-top: 35px;
+    margin-left: 82px;
+}
+.navigation a{
+    max-height: 80px;
+    text-decoration:none;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    padding-top: 13px;
+    text-align: center;
+    
+}
+
+
